@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Arvolution ping pong server",
+  "main": "bin/www",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node bin/www",
+    "lint": "eslint ./ --fix",
+    "test": "mocha tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.7.7",
+    "validatorjs": "^3.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}

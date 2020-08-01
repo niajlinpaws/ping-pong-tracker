@@ -1,0 +1,16 @@
+{
+  "name": "ping-pong-tracker",
+  "version": "1.0.0",
+  "description": "Arvolution Ping Pong Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "npm start --prefix server",
+    "frontend": "npm start --prefix client"
+  },
+  "author": "Swapnil Jain",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
+}
