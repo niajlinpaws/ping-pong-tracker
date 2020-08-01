@@ -1,4 +1,4 @@
-## Arvolution Ping Pong Tracker
+## Ping Pong Tracker
 A ping pong tracking application where players can view leaderboard, view match statistics
 and add new game scores.
 
